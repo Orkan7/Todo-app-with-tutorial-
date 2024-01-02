@@ -2,11 +2,11 @@
 
 
 
-FILEPATH = "TextFiles/My_todo_list.txt"
+FILEPATH = "../TextFiles/My_todo_list.txt"
 
 def get_todos(filepath=FILEPATH):
     """
-     :param filepath: Has the FILEPATH Variable (which containts the Filepath) as an default Argument
+     :param filepath: Has the FILEPATH Variable (which containts the Filepath) as a default Argument
      :return: returns a List with the Items in My_todo_list.txt (as default, you can give other filepaths as Arguments).
      """
     with open(filepath, "r") as file_local:
@@ -25,5 +25,5 @@ def write_todos(todos_arg, filepath=FILEPATH):
 
 
 if __name__ == "__main__":
-    print(get_todos("../PythonScripts/TextFiles/My_todo_list.txt"))
+    print(get_todos())
     print(__name__)

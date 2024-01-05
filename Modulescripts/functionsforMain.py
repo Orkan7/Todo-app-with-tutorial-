@@ -2,7 +2,7 @@
 
 
 
-FILEPATH = "../TextFiles/My_todo_list.txt"
+FILEPATH = "TextFiles/My_todo_list.txt"
 
 def get_todos(filepath=FILEPATH):
     """
